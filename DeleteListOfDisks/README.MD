@@ -1,6 +1,6 @@
 # DeleteListofDisks
 #
-#### Author: rcorradetti@littler.com
+#### Author: Rudy Corradetti
 ### Purpose: Take a CSV of Azure disks and delete them. Give an option for preview using what if.
 #
 ### How to use:
