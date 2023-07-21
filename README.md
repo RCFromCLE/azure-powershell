@@ -1,2 +1,1 @@
-# Introduction 
-A place for CIE created PS automation to create, delete and administer Azure resources.
+https://rudycorradetti.com/2022/11/15/managing-azure-resources-using-ari-and-powershell-my-collection-of-ps-scripts/
