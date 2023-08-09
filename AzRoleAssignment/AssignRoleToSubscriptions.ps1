@@ -1,4 +1,6 @@
-# Azure PowerShell script
+#Author: Rudy Corradetti
+
+#The script assigns a single role to all subscriptions under a management group. The script prompts for the following input: MG Name, Role Definition Name, Principal ID.
 
 # Function to handle user input for reauthentication or tenant switch
 function PromptForAuth {
@@ -12,7 +14,7 @@ function PromptForAuth {
 PromptForAuth
 
 # Prompt user for input variables with additional hints
-$managementGroupName = Read-Host -Prompt "Enter the parent Management Group Name (e.g. 'Tenant Root Group'). This is the Management Group under which all subscriptions are present and to which you want to assign the role."
+$managementGroupName = Read-Host -Prompt "Enter the parent Management Group Name (e.g. 'Development'). This is the Management Group under which all subscriptions are present and to which you want to assign the role."
 $roleDefinitionName = Read-Host -Prompt "Enter the Role Definition Name (e.g. 'Contributor' for Contributor role)"
 $principalId = Read-Host -Prompt "Enter the Principal ID (User or Service Principal ID to which you want to assign the role)"
 
