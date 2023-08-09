@@ -1,4 +1,4 @@
-# Assign Role to Subscriptions Script
+# AssignRoleToSubscriptions.ps1
 
 ## Description
 The `AssignRoleToSubscriptions.ps1` script is designed to assign a single role to all Azure subscriptions under a specified management group. The script will prompt the user for input concerning the Management Group Name, the Role Definition Name, and the Principal ID (either a User or Service Principal ID).
